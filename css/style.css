@@ -1,0 +1,171 @@
+/* start global varailbes */
+:root {
+    --mainColor : #009ad8;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #181a20;
+}
+/* end global variables */
+
+
+
+/* start navbar */
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--mainColor);
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover {
+    color: white;
+  
+    font-weight: 700;
+    margin-left: 30px;
+    
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid var(--mainColor);
+    border-radius: 15px;
+    height: 35px;
+   padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainColor);
+    transition: .5s;
+}
+
+
+
+/* enf navbar */
+
+/* style for search input */
+.search button.btn-info  {
+    background-color: var(--mainColor);
+}
+.search button {
+    right: 0px;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.search button.btn:hover {
+    color: white;
+    box-shadow: 2px 2px 8px rgb(155, 143, 165);
+}
+/* start section one */
+#searchContiner {
+    background-image: url("../images/banner.png");
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.form-control {
+    border-radius: 20px;
+    border: none;
+    color: white !important;
+   
+}
+.form-control:focus {
+    outline: none !important;
+}
+
+/* start cards stye */
+.cards {
+    color: white;
+    margin-top: 50px;
+    
+}
+.card-one,
+.card-two,
+.card-three {
+    height: 100%;
+}
+.card-two {
+    background-color: #262936;
+}
+.card-one,
+.card-three {
+    background-color: #323647;
+}
+.cards .title {
+    background-color: #16181f91;
+    padding: 20px;
+}
+.card-content {
+    margin-top: 30px;
+    
+}
+.card-content .location {
+    font-size: 30px;
+    padding: 0px 20px;
+}
+.card-content .degree {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0px 30px;
+}
+.card-footer h3 {
+ font-size: 20px;
+ font-weight: normal;
+ color:var(--mainColor);
+}
+.weatherDesc {
+    color: var(--mainColor);
+    padding-top: 30px;
+}
+
+/* end cards style */
+/* end section one */
+
+/* start footer */
+footer {
+    background-color: #262936;
+    padding-top: 60px;
+    margin-bottom: -30px;
+}
+
+.form-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    width: 25%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
+}
+.icons i {
+    color: var(--mainColor);
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#181a20 ;
+   text-align: center;
+   line-height: 2.5;
+   cursor: pointer;
+   
+    
+}
+.icons i:hover {
+    color: white;
+    background-color: var(--mainColor);
+}
+.copyRight {
+    color: white;
+}
+/* end footer */
+
+/* media */
+
