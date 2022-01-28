@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awsome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+<!-- start navbar  -->
+
+    
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container py-4">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="">
+          Weather </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          
+          </div>
+        </div>
+      </nav>
+   
+<!--end navbar  -->
+
+
+
+<!-- start section one -->
+<section id="searchContiner">
+    <div class="container py-5">
+      
+        <div class="position-relative search">
+        <input type="text" name="" id="search" placeholder="Enter your location..." class="form-control  bg-dark p-3">
+        <button class="btn btn-info position-absolute" id="findBtn">Find</button>
+        </div>
+        <div class="cards pt-5">
+            <div class="row g-0 allCards ">
+            <div class="col-md-4" id="firstCard">
+                    <div class="card-one pb-5 ">
+                        <div class="title  d-flex justify-content-between">
+                            <div class="day">Sunday</div>
+                            <div class="dat">23January</div>
+                        </div>
+                   
+                      <div class="card-content py-4">
+                          <div class="location">
+                              Cairo
+                          </div>
+                          <div class="degree">
+                              11<sup>o</sup>C
+                              <img src="images/113.png" alt="" srcset="">
+                          </div>
+                        </div>  
+                          <div class="card-footer">
+                              <h3>Clear</h3>
+                            <span><img src="images/icon-umberella.png" alt="" srcset=""> 20% </span>
+                            <span class="ms-3"><img src="images/icon-wind.png" alt="" srcset=""> 18km/h </span>
+                            <span class="ms-3"><img src="images/icon-compass.png" alt="" srcset=""> East</span>
+                          </div>
+                         
+
+                     
+                    </div>
+                </div>  
+                <div class="col-md-4 " id="secondCard">
+                    <div class="card-two pb-5">
+                        <div class="title text-center">
+                            <div class="day">Moday</div>
+                           
+                        </div>
+                        <div class="card-content py-4 text-center">
+                            <div class="image pt-4">
+                               <img src="" alt="" srcset="">
+                            </div>
+                              <div class="weather1">
+                              <div> 14.7<sup>o</sup>C</div>
+                              <div> 8.3<sup>o</sup></div> 
+                              </div>
+                              <div class="weatherDesc">Partly Cloud</div>
+                        </div>  
+                            
+                           
+                    </div>
+                </div>
+
+
+            
+                  <div class="col-md-4" id="thirdCard">
+                    <div class="card-three pb-5">
+                        <div class="title  text-center">
+                            <div class="day">Tuesday</div>
+                            
+                        </div>
+                        <div class="card-content py-4 text-center">
+                            <div class="image pt-4">
+                               <img src="" alt="" srcset="">
+                            </div>
+                            <div class="weather2">
+                              <div> 16.2<sup>o</sup>C</div>
+                              <div> 7.1<sup>o</sup></div> 
+                            </div>
+                            <div class="weatherDesc">Suuny</div>
+                          </div>  
+                           
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+</section>
+<!-- end section one -->
+
+
+<!-- start footer -->
+<footer >
+  <div class="container py-5">
+    <div class="row justify-content-between">
+      <div class="col-md-7">
+    <div class="emailInput  ">
+      <input type="text" value="" placeholder="Enter your Email to subscribe..." class="form-control w-100 bg-dark">
+    </div>
+    </div>
+
+    <div class="col-md-3">
+    <div class="icons  w-100 ">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-google-plus-g"></i>
+      <i class="fab fa-pinterest"></i>
+    </div>
+    </div>
+    </div>
+    <div class="copyRight pt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
+  </div>
+</footer>
+
+<!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
